@@ -8,6 +8,7 @@
 
 </head>
 <body bgcolor="#F5D0A9"><center>
+<<<<<<< HEAD
 <?php
 if (isset($_POST["txtCantidad"])) {
 $cantidad = $_POST["txtCantidad"];
@@ -28,6 +29,9 @@ echo $cuerpoForm . '<br><br><input type="hidden" name="txtCantidad" value="' . $
     echo '<hr><a href="primero.php">Debe enviar la cantidad de aves...</a>';
 }
 ?>
+=======
+
+>>>>>>> 66786d97bc381b4a4eaff55978a8387f2fef7795
 </center>
 </body>
 </html>
